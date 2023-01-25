@@ -8,7 +8,7 @@ echo "Wrong answer, please use option above!"
 
 clear
 
-BUILD="5562-25984c7003de26d4a222e897a782bb1f22bebedd"
+BUILD="5848-4f71128ee48b07026d6d7229a60ebc5f40f2b9db"
 TMP_FOLDER="/tmp/fivem-installer"
 
 # Install dependencies
