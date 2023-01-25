@@ -1,8 +1,10 @@
 # FiveM Server-Installer Script
 
 Build: latest recommend build
-
 OS: Linux
+
+## TX Admin
+The script was not tested in connection with TXAdmin.
 
 ## What is installed?
 FiveM-Server artifacts, cfx-server-data, ESX-Framework and MariaDB Server (both can be rejected)
