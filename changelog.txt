@@ -1,0 +1,3 @@
+# 25.07.2022 - v1.0.1
+- changed build
+- changed server.cfg download link
