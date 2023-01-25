@@ -85,7 +85,7 @@ while true; do
 	case $yn3 in
 		[Yy])
 		echo "Which version do you want to install?"
-		echo -e "1) ESX-Legacy (available but not tested yet)\n2) ESX-1.0\n"
+		echo -e "1) ESX-Legacy (available but not tested yet)\n2) ESX-1.0 (recommended)\n"
 		cd ${SELECTED_FOLDER}/cfx-server-data/resources/
 		while true; do
 			read -e -p " » " -i "2" ESX_VERSION
