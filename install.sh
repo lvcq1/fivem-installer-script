@@ -75,7 +75,7 @@ clear
 
 echo -e "Downloading server.cfg\n"
 cd ${SELECTED_FOLDER}/cfx-server-data/
-wget https://lvcq.xyz/dependencies/fivem-${BUILD}/server.cfg
+wget https://lvcq1.github.io/dependencies/fivem-${BUILD}/server.cfg
 
 clear
 
@@ -91,7 +91,7 @@ while true; do
 			read -e -p " » " -i "2" ESX_VERSION
 			case $ESX_VERSION in
 				1) git clone git.test; break;;
-				2) git clone https://github.com/Lvcq01/esx-framework-1.0 
+				2) git clone https://github.com/lvcq1/esx-framework-1.0 
 					cd ${SELECTED_FOLDER}/cfx-server-data/resources/esx-framework-1.0 
 				 	mv * ${SELECTED_FOLDER}/cfx-server-data/resources/ ..
 					cd ${SELECTED_FOLDER}/cfx-server-data/resources/
