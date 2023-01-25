@@ -85,12 +85,12 @@ while true; do
 	case $yn3 in
 		[Yy])
 		echo "Which version do you want to install?"
-		echo -e "1) ESX-Legacy (currently not available)\n2) ESX-1.0\n"
+		echo -e "1) ESX-Legacy (available but not tested yet)\n2) ESX-1.0\n"
 		cd ${SELECTED_FOLDER}/cfx-server-data/resources/
 		while true; do
 			read -e -p " » " -i "2" ESX_VERSION
 			case $ESX_VERSION in
-				1) git clone git.test; break;;
+				1) git clone https://github.com/lvcq1/esx_core; break;;
 				2) git clone https://github.com/lvcq1/esx-framework-1.0 
 					cd ${SELECTED_FOLDER}/cfx-server-data/resources/esx-framework-1.0 
 				 	mv * ${SELECTED_FOLDER}/cfx-server-data/resources/ ..
@@ -108,7 +108,7 @@ done
 
 clear
 
-echo "Database server already installed?"
+echo "Do you have a Database?"
 while true; do
                 read -e -p "(y/n): " -i "n" yn4
                 case $yn4 in
