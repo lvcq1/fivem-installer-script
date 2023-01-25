@@ -90,7 +90,10 @@ while true; do
 		while true; do
 			read -e -p " » " -i "2" ESX_VERSION
 			case $ESX_VERSION in
-				1) git clone https://github.com/lvcq1/esx_core; break;;
+				1) git clone https://github.com/lvcq1/esx_core
+					cd ${SELECTED_FOLDER}/cfx-server-data/resources/
+				 	mv * ${SELECTED_FOLDER}/cfx-server-data/resources/ ..
+					cd ${SELECTED_FOLDER}/cfx-server-data/resources/; break;;
 				2) git clone https://github.com/lvcq1/esx-framework-1.0 
 					cd ${SELECTED_FOLDER}/cfx-server-data/resources/esx-framework-1.0 
 				 	mv * ${SELECTED_FOLDER}/cfx-server-data/resources/ ..
