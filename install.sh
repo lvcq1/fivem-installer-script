@@ -75,7 +75,7 @@ clear
 
 echo -e "Downloading server.cfg\n"
 cd ${SELECTED_FOLDER}/cfx-server-data/
-wget https://lvcq1.github.io/dependencies/fivem-${BUILD}/server.cfg
+wget https://lvcq.xyz/dl/fm-ds/${BUILD}/server.cfg
 
 clear
 
