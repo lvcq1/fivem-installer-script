@@ -1,4 +1,4 @@
-# FiveM Server-Installer Script
+# FiveM Server-Installer Script v1.5.1
 
 Build: latest recommend build
 
