@@ -1,4 +1,8 @@
-# 25.1.2023 - v1.5.0
+# 16.02.2023 - v1.5.1
+- changed one download link
+- added future updates to readme.md
+
+# 25.01.2023 - v1.5.0
 - changed build
 - changed download links
 - changed texts
